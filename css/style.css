@@ -225,9 +225,9 @@ body {
 }
 
 .fa-play::before {
-  content: url(/Users/mbp/Downloads/grau/web_2/svg/play_yellow.svg);
+  content: url(https://raw.githubusercontent.com/withoutcolors/withoutcolors.github.io/main/svg/play_yellow.svg);
 }
 
 .fa-pause::before {
-  content: url(/Users/mbp/Downloads/grau/web_2/svg/pause_yellow.svg);
+  content: url(https://raw.githubusercontent.com/withoutcolors/withoutcolors.github.io/main/svg/play_yellow.svg);
 }

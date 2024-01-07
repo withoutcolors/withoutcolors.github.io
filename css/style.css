@@ -229,5 +229,5 @@ body {
 }
 
 .fa-pause::before {
-  content: url(https://raw.githubusercontent.com/withoutcolors/withoutcolors.github.io/main/svg/play_yellow.svg);
+  content: url(https://raw.githubusercontent.com/withoutcolors/withoutcolors.github.io/main/svg/pause_yellow.svg);
 }

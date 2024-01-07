@@ -1,0 +1,233 @@
+/* grau */
+
+/* general */
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+body {
+  background-color: var(--global-2);
+  transition: 0.2s ease;
+}
+
+/* variables */
+
+:root {
+  --global-1: #fafaf2;
+  --global-2: #16161d;
+  --global-3: transparent;
+  --global-4: #ffffff;
+
+  --blur-1: rgba(255, 255, 255, 0.8);
+  --blur-2: rgba(0, 0, 0, 0.7);
+  --blur-3: rgba(217, 197, 105, 0.7);
+}
+
+[theme-variable="dark"] {
+  --global-1: #16161d;
+  --global-2: #fafaf2;
+  --global-3: transparent;
+  --global-4: #000000;
+
+  --blur-1: rgba(0, 0, 0, 0.7);
+  --blur-2: rgba(255, 255, 255, 0.8);
+  --blur-3: rgba(217, 197, 105, 0.7);
+}
+
+
+/* map */
+
+#map {
+  background-color: var(--global-2);
+  border: none;
+  outline: none;
+
+  width: 100vw;
+  height: 100dvh;
+}
+
+/* logo grau */
+
+#logo-grau {
+  display: grid;
+
+  grid-template-columns: minmax(auto, 133px);
+  grid-template-rows: minmax(auto, 48px);
+
+  background-color: var(--global-3);
+  border: none;
+
+  position: fixed;
+
+  top: 11.2px;
+  left: 6.4px;
+
+  z-index: 666;
+}
+#logo-grau svg {
+  background-color: var(--global-3);
+  fill: var(--blur-3);
+
+  width: 100%;
+
+  transition: 0.2s ease;
+  cursor: default;
+}
+
+/* navigator */
+
+#navigator {
+  display: grid;
+
+  grid-template-columns: 0.4em 1fr 0.4em;
+  grid-template-rows: 0.45em 1fr 0.45em;
+
+  background-color: var(--blur-3);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+
+  border-radius: 48pt;
+
+  position: fixed;
+
+  bottom: 11.2px;
+  right: 11.2px;
+
+  transition: 0.2s ease;
+  z-index: 666;
+}
+
+/* links */
+
+#links {
+  display: grid;
+
+  grid-template-columns: 36px;
+  grid-template-rows: 36px 36px 36px;
+
+  grid-gap: 0.7em;
+
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+
+  place-self: center;
+
+  background-color: var(--global-3);
+}
+
+/* github */
+
+#github {
+  display: grid;
+
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+
+  place-self: center;
+
+  background-color: var(--global-3);
+  border: none;
+}
+#github svg {
+  background-color: var(--global-3);
+  fill: var(--blur-3);
+
+  width: 36px;
+  height: 36px;
+
+  place-self: center;
+
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+/* icon grau */
+
+#icon-grau {
+  display: grid;
+
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+
+  place-self: center;
+
+  background-color: var(--global-3);
+  border: none;
+}
+#icon-grau svg {
+  background-color: var(--global-3);
+  fill: var(--blur-3);
+
+  width: 36px;
+  height: 36px;
+
+  place-self: center;
+
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+/* audio */
+
+#music {
+  display: grid;
+
+  grid-template-columns: 36px;
+  grid-template-rows: 36px;
+
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+
+  place-self: center;
+
+  background-color: var(--global-3);
+  border: none;
+}
+
+#music-button {
+  display: grid;
+
+  grid-template-columns: 36px;
+  grid-template-rows: 36px;
+
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+
+  place-self: center;
+
+  background: var(--global-3);
+  border: none;
+
+  transition: 0.2s ease;
+  cursor: pointer;
+
+  user-select: none;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+
+  -webkit-tap-highlight-color: transparent;
+
+  z-index: 999;
+}
+#music-button:focus {
+  outline: 0;
+}
+
+.fa-play::before {
+  content: url(/Users/mbp/Downloads/grau/web_2/svg/play_yellow.svg);
+}
+
+.fa-pause::before {
+  content: url(/Users/mbp/Downloads/grau/web_2/svg/pause_yellow.svg);
+}

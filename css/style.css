@@ -231,3 +231,14 @@ body {
 .fa-pause::before {
   content: url(https://raw.githubusercontent.com/withoutcolors/withoutcolors.github.io/main/svg/pause_yellow.svg);
 }
+
+/* leaflet */
+
+.leaflet-control-attribution {
+  display: none;
+}
+
+.leaflet-touch .leaflet-control-layers,
+.leaflet-touch .leaflet-bar {
+  display: none;
+}

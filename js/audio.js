@@ -6,13 +6,16 @@ const audio = document.getElementById('audio');
 
 // song titles
 const songs = [
-  'grau-technics-trials',
-  'grau-technics-trials',
-  'grau-technics-trials',
-  'grau-technics-trials'];
+  'grau-trials',
+  'grau-trials',
+  'grau-trials',
+  'grau-trials',
+  'grau-trials',
+  'grau-trials',
+  'grau-trials'];
 
 // keep track of song
-let songIndex = 0;
+let songIndex = 6;
 
 // update song details
 function loadSong(song) {

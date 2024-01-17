@@ -13,6 +13,7 @@ L.tileLayer('maps/grau/{z}/{x}/{y}.png', {
     maxZoom: 5,
     continuousWorld: false,
     noWrap: true,
+    scrollWheelZoom: true,
     crs: L.CRS.Simple,
 }).addTo(map);
 

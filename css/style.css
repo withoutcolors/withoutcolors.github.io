@@ -167,7 +167,7 @@ body {
   cursor: pointer;
 
   overflow: hidden;
-  z-index: 66666;
+  z-index: 999;
 }
 
 #progress {
@@ -179,6 +179,7 @@ body {
   height: 100%;
 
   transition: width 0.1s linear;
+  z-index: 999;
 }
 
 /* leaflet */

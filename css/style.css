@@ -32,6 +32,8 @@ body {
 
   width: 100vw;
   height: 100dvh;
+
+  z-index: 6;
 }
 
 #sheet {

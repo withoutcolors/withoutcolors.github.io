@@ -48,9 +48,9 @@ body {
   height: 100dvh;
 }
 
-/* logo grau */
+/* logo */
 
-#logo-grau {
+#logo {
   display: grid;
 
   grid-template-columns: minmax(auto, 108pt);
@@ -67,7 +67,7 @@ body {
 
   z-index: 666;
 }
-#logo-grau svg {
+#logo svg {
   background-color: var(--global-2);
   fill: var(--global-3);
 

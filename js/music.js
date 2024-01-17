@@ -9,12 +9,6 @@ const progressContainer = document.getElementById('progress-container');
 
 // song titles
 const songs = [
-  'grau-trials',
-  'grau-trials',
-  'grau-trials',
-  'grau-trials',
-  'grau-trials',
-  'grau-trials',
   'grau-trials'];
 
 // keep track of song

@@ -28,3 +28,11 @@ window.oncontextmenu = function (event) {
   event.stopPropagation()
   return false
 }
+
+const touchHandler = (ev) => {
+    ev.preventDefault() // Prevent text selection
+}
+document.addEventListener('touchstart', touchHandler, {passive:false})
+document.addEventListener('touchmove', touchHandler, {passive:false})
+document.addEventListener('touchend', touchHandler, {passive:false})
+document.addEventListener('touchcancel', touchHandler, {passive:false})
